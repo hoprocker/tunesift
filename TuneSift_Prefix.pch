@@ -1,0 +1,47 @@
+//
+// Prefix header for all source files of the 'TuneSift' target in the 'TuneSift' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
+
+#define kMaxAlpha   0.9
+#define kAlphaIncrement 0.05
+#define kPollInterval 0.7
+
+#define kSearchPanelActiveCode  'sRCh'
+
+#define kSearchPanelWidth	434
+#define kSearchPanelHeight   120
+#define kSearchPanelSearchFieldBottomIndent 10
+
+#define kSearchResultsWidth		950
+#define kSearchResultsHeight	306
+#define kSearchResultsBottom	kSearchPanelHeight+kSearchResultsHeight
+
+#define kSmallTitlebarHeight	16
+
+#define kSongNumberCap			5000
+
+#define kReturnKey				36
+#define kBackspaceKey			51
+#define kESCKey					53
+#define kLeftArrow				123
+#define kRightArrow				124
+#define kDownArrow				125
+#define kUpArrow				126
+
+/* Icon delimeters */
+#define kShuffleOff 0
+#define kShuffleOn 1
+#define kNextTrack 2
+#define kBackTrack 3
+#define kPlayTrack 4
+#define kPauseTrack 5
+
+//#define _TESTING_CUSTOM_SEARCH_PANEL_
+//#define _MAIN_DEBUG_
+//#define _STRINGBOX_DEBUG_
+//#define _SOURCE_DEBUG_
+//#define _MENU_DEBUG_

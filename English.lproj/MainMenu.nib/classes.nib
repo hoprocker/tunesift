@@ -1,0 +1,83 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = HeadsUpWindow; LANGUAGE = ObjC; SUPERCLASS = NSPanel; }, 
+        {CLASS = SearchPanelView; LANGUAGE = ObjC; SUPERCLASS = NSView; }, 
+        {CLASS = SearchResultsPanel; LANGUAGE = ObjC; SUPERCLASS = NSPanel; }, 
+        {CLASS = SearchResultsSource; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            CLASS = SearchResultsView; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {mTunesController = id; }; 
+            SUPERCLASS = NSTableView; 
+        }, 
+        {CLASS = SongSearchBox; LANGUAGE = ObjC; SUPERCLASS = NSPanel; }, 
+        {
+            CLASS = SongSearchPanel; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {mTunesController = id; }; 
+            SUPERCLASS = NSPanel; 
+        }, 
+        {
+            ACTIONS = {
+                backTrack = id; 
+                fadeMore = id; 
+                forwardTrack = id; 
+                hideHeadsUpDisplay = id; 
+                playPause = id; 
+                showHelpText = id; 
+                toggleShuffle = id; 
+            }; 
+            CLASS = TuneSiftInterface; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                albumField = id; 
+                albumMenuItem = id; 
+                appMenu = id; 
+                artistField = id; 
+                artistMenuItem = id; 
+                headsUpPanel = id; 
+                keyChoiceField = id; 
+                lengthField = id; 
+                nameField = id; 
+                nameMenuItem = id; 
+                playlistsMenuItem = id; 
+                searchResultsPanel = id; 
+                searchResultsView = id; 
+                shuffleMenuItem = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            ACTIONS = {
+                backTrack = id; 
+                fadeMore = id; 
+                forwardTrack = id; 
+                hideHeadsUpDisplay = id; 
+                playPause = id; 
+                showHelpText = id; 
+                toggleShuffle = id; 
+            }; 
+            CLASS = mTunesInterface; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                albumField = id; 
+                albumMenuItem = id; 
+                appMenu = id; 
+                artistField = id; 
+                artistMenuItem = id; 
+                headsUpPanel = id; 
+                keyChoiceField = id; 
+                lengthField = id; 
+                nameField = id; 
+                nameMenuItem = id; 
+                playlistsMenuItem = id; 
+                searchResultsPanel = id; 
+                searchResultsView = id; 
+                shuffleMenuItem = id; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }
+    ); 
+    IBVersion = 1; 
+}
