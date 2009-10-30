@@ -174,7 +174,7 @@ const int   kPlaylistsMenuItem = 5;
 			[arrowimage retain];
 		}
 	} else
-		fprintf(stderr, "songsearchpanel::initPopupMenu : couldn't get image\n");*
+		fprintf(stderr, "songsearchpanel::initPopupMenu : couldn't get image\n");
 		
 	[[self contentView] addSubview:appmenuview];
 	[[self contentView] addSubview:appmenu];

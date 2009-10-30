@@ -1,37 +1,30 @@
 // !$*UTF8*$!
 {
-	089C165DFE840E0CC02AAC07 = {
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {711, 428}}";
-			sepNavSelRange = "{164, 0}";
-			sepNavVisRect = "{{0, 0}, {711, 428}}";
-			sepNavWindowFrame = "{{257, 188}, {750, 558}}";
-		};
-	};
-	29B97313FDCFA39411CA2CEA = {
-		activeBuildStyle = 4A9504CDFFE6A4B311CA0CBA;
-		activeExecutable = D4E600D5081C299E00641C1D;
-		activeTarget = 8D1107260486CEB800E47090;
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Development;
+		activeExecutable = D4E600D5081C299E00641C1D /* TuneSift */;
+		activeSDKPreference = macosx10.5;
+		activeTarget = 8D1107260486CEB800E47090 /* TuneSift */;
 		addToTargets = (
-			8D1107260486CEB800E47090,
+			8D1107260486CEB800E47090 /* TuneSift */,
 		);
 		breakpoints = (
-			D40D37C30744A88F007D2BD4,
-			D40D37EF0744B463007D2BD4,
-			D49658EE0745F7F6007E2BB4,
-			D49658F20745F880007E2BB4,
-			D4965ABE0746469B007E2BB4,
-			D4BF7E76074C095600FCCCE1,
-			D40C391507A059B00057BA9C,
-			D40C391A07A05A5C0057BA9C,
-			D4D5E9C607D253AB008757C6,
-			D4D5E9C807D253AD008757C6,
-			D429DA3F07F29C1900F41B25,
-			D429DA4907F29CEE00F41B25,
+			D40D37C30744A88F007D2BD4 /* TuneSiftInterface.m:590 */,
+			D40D37EF0744B463007D2BD4 /* SearchResultsSource.m:355 */,
+			D49658EE0745F7F6007E2BB4 /* SearchResultsSource.m:85 */,
+			D49658F20745F880007E2BB4 /* SearchResultsSource.m:128 */,
+			D4965ABE0746469B007E2BB4 /* TuneSiftInterface.m:49 */,
+			D4BF7E76074C095600FCCCE1 /* SongSearchPanel.m:286 */,
+			D40C391507A059B00057BA9C /* TuneSiftInterface.m:41 */,
+			D40C391A07A05A5C0057BA9C /* TuneSiftInterface.m:160 */,
+			D4D5E9C607D253AB008757C6 /* TuneSiftInterface.m:455 */,
+			D4D5E9C807D253AD008757C6 /* TuneSiftInterface.m:461 */,
+			D429DA3F07F29C1900F41B25 /* TuneSiftInterface.m:662 */,
+			D429DA4907F29CEE00F41B25 /* TuneSiftInterface.m:653 */,
 		);
-		codeSenseManager = D4D0BD040730E2ED006CB841;
+		codeSenseManager = D4D0BD040730E2ED006CB841 /* Code sense */;
 		executables = (
-			D4E600D5081C299E00641C1D,
+			D4E600D5081C299E00641C1D /* TuneSift */,
 		);
 		perUserDictionary = {
 			PBXConfiguration.PBXFileTableDataSource3.PBXBookmarksDataSource = {
@@ -51,8 +44,8 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXErrorsWarningsDataSource_LocationID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					257.8799,
-					150.2085,
+					257,
+					522,
 				);
 				PBXFileTableDataSourceColumnsKey = (
 					PBXErrorsWarningsDataSource_TypeID,
@@ -65,7 +58,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					22,
-					409.7974,
+					595,
 				);
 				PBXFileTableDataSourceColumnsKey = (
 					PBXExecutablesDataSource_ActiveFlagID,
@@ -77,7 +70,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					221,
+					592,
 					20,
 					45,
 					43,
@@ -111,9 +104,9 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXSymbolsDataSource_SymbolNameID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					16,
-					124.8008,
-					153.0356,
-					130.2085,
+					124,
+					153,
+					502.20849609375,
 				);
 				PBXFileTableDataSourceColumnsKey = (
 					PBXSymbolsDataSource_SymbolTypeIconID,
@@ -151,8 +144,8 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					194,
-					46,
+					365,
+					60,
 					20,
 					46,
 					43,
@@ -168,7 +161,7 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 136261479;
+			PBXPerProjectTemplateStateSaveDate = 278576847;
 			PBXPrepackagedSmartGroups_v2 = (
 				{
 					PBXTransientLocationAtTop = bottom;
@@ -809,392 +802,630 @@
 				PBXModuleWindowStatusBarHidden = YES;
 				RubberWindowFrame = "215 96 745 464 0 0 1024 746 ";
 			};
-			PBXWorkspaceStateSaveDate = 136261479;
+			PBXWorkspaceStateSaveDate = 278576847;
 		};
 		perUserProjectItems = {
-			D4E601EB081F2A8500641C1D = D4E601EB081F2A8500641C1D;
-			D4E601EC081F2A8500641C1D = D4E601EC081F2A8500641C1D;
-			D4E601ED081F2A8500641C1D = D4E601ED081F2A8500641C1D;
-			D4E601F3081F2B5400641C1D = D4E601F3081F2B5400641C1D;
-			D4E60218081F300500641C1D = D4E60218081F300500641C1D;
-			D4E6021D081F301D00641C1D = D4E6021D081F301D00641C1D;
-			D4E6021E081F303600641C1D = D4E6021E081F303600641C1D;
+			D47EDEC4109A7B6C00229A50 = D47EDEC4109A7B6C00229A50 /* PBXTextBookmark */;
+			D47EDEC5109A7B6C00229A50 = D47EDEC5109A7B6C00229A50 /* PlistBookmark */;
+			D47EDEC7109A7B6C00229A50 = D47EDEC7109A7B6C00229A50 /* PBXBookmark */;
+			D47EDEC8109A7B6C00229A50 = D47EDEC8109A7B6C00229A50 /* PBXBookmark */;
+			D47EDEC9109A7B6C00229A50 = D47EDEC9109A7B6C00229A50 /* PBXBookmark */;
+			D47EDECA109A7B6C00229A50 = D47EDECA109A7B6C00229A50 /* PBXBookmark */;
+			D47EDECB109A7B6C00229A50 = D47EDECB109A7B6C00229A50 /* PBXBookmark */;
+			D47EDECC109A7B6C00229A50 = D47EDECC109A7B6C00229A50 /* PBXBookmark */;
+			D47EDECD109A7B6C00229A50 = D47EDECD109A7B6C00229A50 /* PBXBookmark */;
+			D47EDECE109A7B6C00229A50 = D47EDECE109A7B6C00229A50 /* PBXBookmark */;
+			D47EDECF109A7B6C00229A50 = D47EDECF109A7B6C00229A50 /* PBXBookmark */;
+			D47EDED2109A7B6C00229A50 = D47EDED2109A7B6C00229A50 /* PBXTextBookmark */;
+			D47EDED4109A7B6C00229A50 = D47EDED4109A7B6C00229A50 /* PlistBookmark */;
+			D47EDED5109A7B6C00229A50 = D47EDED5109A7B6C00229A50 /* PBXBookmark */;
+			D47EDED8109A7B6C00229A50 = D47EDED8109A7B6C00229A50 /* PBXBookmark */;
+			D47EDED9109A7B6C00229A50 = D47EDED9109A7B6C00229A50 /* PBXBookmark */;
+			D47EDEDA109A7B6C00229A50 = D47EDEDA109A7B6C00229A50 /* PBXBookmark */;
+			D47EDEDB109A7B6C00229A50 = D47EDEDB109A7B6C00229A50 /* PBXBookmark */;
+			D47EDEDC109A7B6C00229A50 = D47EDEDC109A7B6C00229A50 /* PBXBookmark */;
+			D47EDEDD109A7B6C00229A50 = D47EDEDD109A7B6C00229A50 /* PBXBookmark */;
+			D47EDEDE109A7B6C00229A50 = D47EDEDE109A7B6C00229A50 /* PBXBookmark */;
+			D47EDEDF109A7B6C00229A50 = D47EDEDF109A7B6C00229A50 /* PBXBookmark */;
+			D47EDEE0109A7B6C00229A50 = D47EDEE0109A7B6C00229A50 /* PBXBookmark */;
+			D47EDEE1109A7B6C00229A50 = D47EDEE1109A7B6C00229A50 /* PBXBookmark */;
+			D47EDF2B109A7FE200229A50 = D47EDF2B109A7FE200229A50 /* PBXBookmark */;
+			D47EDF2C109A7FE200229A50 = D47EDF2C109A7FE200229A50 /* PBXTextBookmark */;
+			D47EDF2D109A7FE200229A50 = D47EDF2D109A7FE200229A50 /* PlistBookmark */;
+			D47EDF2E109A7FE200229A50 = D47EDF2E109A7FE200229A50 /* PBXBookmark */;
+			D47EDF2F109A7FE200229A50 = D47EDF2F109A7FE200229A50 /* PBXBookmark */;
+			D47EDF30109A7FE200229A50 = D47EDF30109A7FE200229A50 /* PBXTextBookmark */;
+			D47EDF31109A7FE200229A50 = D47EDF31109A7FE200229A50 /* PlistBookmark */;
+			D47EDF42109A803000229A50 = D47EDF42109A803000229A50 /* PBXTextBookmark */;
+			D47EDF56109ABEFD00229A50 /* PBXTextBookmark */ = D47EDF56109ABEFD00229A50 /* PBXTextBookmark */;
+			D47EDF58109ABF1D00229A50 /* PBXTextBookmark */ = D47EDF58109ABF1D00229A50 /* PBXTextBookmark */;
+			D47EDF59109ABF2C00229A50 /* PBXBookmark */ = D47EDF59109ABF2C00229A50 /* PBXBookmark */;
+			D47EDF5A109ABF3E00229A50 /* PBXTextBookmark */ = D47EDF5A109ABF3E00229A50 /* PBXTextBookmark */;
+			D47EDF5F109ABF3E00229A50 /* PBXTextBookmark */ = D47EDF5F109ABF3E00229A50 /* PBXTextBookmark */;
+			D47EDF62109ABF3E00229A50 /* PBXTextBookmark */ = D47EDF62109ABF3E00229A50 /* PBXTextBookmark */;
+			D47EDF65109ABF3E00229A50 /* PBXTextBookmark */ = D47EDF65109ABF3E00229A50 /* PBXTextBookmark */;
+			D47EDF70109ABFD800229A50 /* PBXTextBookmark */ = D47EDF70109ABFD800229A50 /* PBXTextBookmark */;
+			D47EDF71109ABFD800229A50 /* PBXTextBookmark */ = D47EDF71109ABFD800229A50 /* PBXTextBookmark */;
+			D47EDF72109ABFD800229A50 /* PBXTextBookmark */ = D47EDF72109ABFD800229A50 /* PBXTextBookmark */;
 		};
-		sourceControlManager = D4D0BD030730E2ED006CB841;
+		sourceControlManager = D4D0BD030730E2ED006CB841 /* Source Control */;
 		userBuildSettings = {
 		};
 	};
-	29B97316FDCFA39411CA2CEA = {
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {711, 428}}";
-			sepNavSelRange = "{208, 42}";
-			sepNavVisRect = "{{0, 0}, {711, 428}}";
-			sepNavWindowFrame = "{{15, 183}, {750, 558}}";
-		};
-	};
-	32CA4F630368D1EE00C91783 = {
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {711, 658}}";
-			sepNavSelRange = "{167, 0}";
-			sepNavVisRect = "{{0, 0}, {711, 428}}";
-			sepNavWindowFrame = "{{15, 183}, {750, 558}}";
-		};
-	};
-	8D1107260486CEB800E47090 = {
+	8D1107260486CEB800E47090 /* TuneSift */ = {
 		activeExec = 0;
 		executables = (
-			D4E600D5081C299E00641C1D,
+			D4E600D5081C299E00641C1D /* TuneSift */,
 		);
 	};
-	8D1107310486CEB800E47090 = {
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {711, 428}}";
-			sepNavSelRange = "{630, 0}";
-			sepNavVisRect = "{{0, 0}, {711, 428}}";
-			sepNavWindowFrame = "{{52, 54}, {750, 558}}";
-		};
-	};
-	D40495CE07D63A2D00B3C4BC = {
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {711, 428}}";
-			sepNavSelRange = "{26, 0}";
-			sepNavVisRect = "{{0, 0}, {711, 428}}";
-			sepNavWindowFrame = "{{153, 57}, {750, 558}}";
-		};
-	};
-	D40495CF07D63A2D00B3C4BC = {
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {878, 615}}";
-			sepNavSelRange = "{261, 767}";
-			sepNavVisRect = "{{0, 187}, {711, 428}}";
-			sepNavWindowFrame = "{{199, 15}, {750, 558}}";
-		};
-	};
-	D40495F307D6429200B3C4BC = {
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {711, 428}}";
-			sepNavSelRange = "{348, 0}";
-			sepNavVisRect = "{{0, 0}, {711, 428}}";
-			sepNavWindowFrame = "{{176, 36}, {750, 558}}";
-		};
-	};
-	D40495F407D6429200B3C4BC = {
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {806, 965}}";
-			sepNavSelRange = "{1139, 0}";
-			sepNavVisRect = "{{0, 311}, {711, 428}}";
-			sepNavWindowFrame = "{{107, 99}, {750, 558}}";
-		};
-	};
-	D404960107D643CF00B3C4BC = {
+	D404960107D643CF00B3C4BC /* headsupBG.tif */ = {
 		uiCtxt = {
 			sepNavWindowFrame = "{{38, 162}, {750, 558}}";
 		};
 	};
-	D40C391507A059B00057BA9C = {
-		fileReference = D4D0BD080730E3D8006CB841;
+	D40C391507A059B00057BA9C /* TuneSiftInterface.m:41 */ = {
+		isa = PBXFileBreakpoint;
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = D4D0BD080730E3D8006CB841 /* TuneSiftInterface.m */;
 		functionName = "-awakeFromNib";
-		isa = PBXFileBreakpoint;
+		hitCount = 0;
+		ignoreCount = 0;
 		lineNumber = 41;
+		modificationTime = 0;
 		state = 2;
 	};
-	D40C391A07A05A5C0057BA9C = {
-		fileReference = D4D0BD080730E3D8006CB841;
+	D40C391A07A05A5C0057BA9C /* TuneSiftInterface.m:160 */ = {
+		isa = PBXFileBreakpoint;
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = D4D0BD080730E3D8006CB841 /* TuneSiftInterface.m */;
 		functionName = "-setupApplescripts";
-		isa = PBXFileBreakpoint;
+		hitCount = 0;
+		ignoreCount = 0;
 		lineNumber = 160;
+		modificationTime = 0;
 		state = 2;
 	};
-	D40D37C30744A88F007D2BD4 = {
-		fileReference = D4D0BD080730E3D8006CB841;
+	D40D37C30744A88F007D2BD4 /* TuneSiftInterface.m:590 */ = {
+		isa = PBXFileBreakpoint;
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = D4D0BD080730E3D8006CB841 /* TuneSiftInterface.m */;
 		functionName = "-changeResultsSource:";
-		isa = PBXFileBreakpoint;
+		hitCount = 0;
+		ignoreCount = 0;
 		lineNumber = 590;
+		modificationTime = 0;
 		state = 2;
 	};
-	D40D37EF0744B463007D2BD4 = {
-		fileReference = D43740B10740C08000CC3F30;
+	D40D37EF0744B463007D2BD4 /* SearchResultsSource.m:355 */ = {
+		isa = PBXFileBreakpoint;
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = D43740B10740C08000CC3F30 /* SearchResultsSource.m */;
 		functionName = "-readPlaylistInfo";
-		isa = PBXFileBreakpoint;
+		hitCount = 0;
+		ignoreCount = 0;
 		lineNumber = 355;
+		modificationTime = 0;
 		state = 2;
 	};
-	D41D31F9073756E20083C748 = {
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {711, 909}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRect = "{{0, 0}, {711, 428}}";
-			sepNavWindowFrame = "{{7, 188}, {750, 558}}";
-		};
+	D41D31FA073756E20083C748 /* SongSearchPanel.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = SongSearchPanel.m;
+		path = /Users/malcolm/dev/tunesift.git/SongSearchPanel.m;
+		sourceTree = "<absolute>";
 	};
-	D41D31FA073756E20083C748 = {
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {968, 7587}}";
-			sepNavSelRange = "{5735, 28}";
-			sepNavVisRect = "{{0, 2575}, {850, 73}}";
-			sepNavWindowFrame = "{{206, 153}, {750, 558}}";
-		};
-	};
-	D429DA3F07F29C1900F41B25 = {
-		fileReference = D4D0BD080730E3D8006CB841;
-		functionName = "-toggleShuffle:";
+	D429DA3F07F29C1900F41B25 /* TuneSiftInterface.m:662 */ = {
 		isa = PBXFileBreakpoint;
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = D4D0BD080730E3D8006CB841 /* TuneSiftInterface.m */;
+		functionName = "-toggleShuffle:";
+		hitCount = 0;
+		ignoreCount = 0;
 		lineNumber = 662;
+		modificationTime = 0;
 		state = 1;
 	};
-	D429DA4907F29CEE00F41B25 = {
-		fileReference = D4D0BD080730E3D8006CB841;
-		functionName = "-toggleShuffle:";
+	D429DA4907F29CEE00F41B25 /* TuneSiftInterface.m:653 */ = {
 		isa = PBXFileBreakpoint;
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = D4D0BD080730E3D8006CB841 /* TuneSiftInterface.m */;
+		functionName = "-toggleShuffle:";
+		hitCount = 0;
+		ignoreCount = 0;
 		lineNumber = 653;
+		modificationTime = 0;
 		state = 1;
 	};
-	D429DA8D08099A9800F41B25 = {
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {711, 428}}";
-			sepNavSelRange = "{240, 0}";
-			sepNavVisRect = "{{0, 0}, {711, 428}}";
-			sepNavWindowFrame = "{{130, 78}, {750, 558}}";
-		};
-	};
-	D429DA8E08099A9800F41B25 = {
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {806, 895}}";
-			sepNavSelRange = "{1055, 195}";
-			sepNavVisRect = "{{0, 467}, {711, 428}}";
-			sepNavWindowFrame = "{{15, 183}, {750, 558}}";
-		};
-	};
-	D429DAD50809A6E500F41B25 = {
+	D429DAD50809A6E500F41B25 /* headsupShuffleOff.tif */ = {
 		uiCtxt = {
 			sepNavWindowFrame = "{{38, 162}, {750, 558}}";
 		};
 	};
-	D429DADE0809A85000F41B25 = {
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {711, 428}}";
-			sepNavSelRange = "{341, 0}";
-			sepNavVisRect = "{{0, 0}, {711, 428}}";
-			sepNavWindowFrame = "{{38, 162}, {750, 558}}";
-		};
-	};
-	D429DADF0809A85000F41B25 = {
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {950, 1203}}";
-			sepNavSelRange = "{1664, 0}";
-			sepNavVisRect = "{{0, 112}, {711, 428}}";
-			sepNavWindowFrame = "{{15, 183}, {750, 558}}";
-		};
-	};
-	D429DB3A080E569900F41B25 = {
+	D429DB3A080E569900F41B25 /* headsupShuffleOn.tif */ = {
 		uiCtxt = {
 			sepNavWindowFrame = "{{107, 99}, {750, 558}}";
 		};
 	};
-	D43740B00740C08000CC3F30 = {
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {711, 601}}";
-			sepNavSelRange = "{824, 0}";
-			sepNavVisRect = "{{0, 173}, {711, 428}}";
-			sepNavWindowFrame = "{{19, 188}, {750, 558}}";
-		};
+	D43740B10740C08000CC3F30 /* SearchResultsSource.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = SearchResultsSource.m;
+		path = /Users/malcolm/dev/tunesift.git/SearchResultsSource.m;
+		sourceTree = "<absolute>";
 	};
-	D43740B10740C08000CC3F30 = {
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1088, 6089}}";
-			sepNavSelRange = "{6721, 79}";
-			sepNavVisRect = "{{0, 2450}, {850, 73}}";
-			sepNavWindowFrame = "{{17, 16}, {970, 730}}";
-		};
-	};
-	D437C271081625A20011F990 = {
+	D437C271081625A20011F990 /* backicon.tif */ = {
 		uiCtxt = {
 			sepNavWindowFrame = "{{61, 141}, {750, 558}}";
 		};
 	};
-	D437C29408162B540011F990 = {
+	D437C29408162B540011F990 /* pauseicon.tif */ = {
 		uiCtxt = {
 			sepNavWindowFrame = "{{84, 120}, {750, 558}}";
 		};
 	};
-	D469A7070736414D00A21846 = {
+	D47EDE73109A79DB00229A50 /* SongSearchPanel.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {711, 428}}";
-			sepNavSelRange = "{232, 0}";
-			sepNavVisRect = "{{0, 0}, {711, 428}}";
-			sepNavWindowFrame = "{{107, 99}, {750, 558}}";
+			sepNavIntBoundsRect = "{{0, 0}, {691, 910}}";
+			sepNavSelRange = "{989, 0}";
+			sepNavVisRange = "{385, 693}";
+			sepNavWindowFrame = "{{91, 119}, {750, 558}}";
 		};
 	};
-	D469A7080736414D00A21846 = {
+	D47EDE7C109A79DB00229A50 /* SongSearchPanel.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {740, 699}}";
-			sepNavSelRange = "{115, 17}";
-			sepNavVisRect = "{{0, 3}, {711, 428}}";
-			sepNavWindowFrame = "{{176, 36}, {750, 558}}";
+			sepNavIntBoundsRect = "{{0, 0}, {960, 7910}}";
+			sepNavSelRange = "{5566, 0}";
+			sepNavVisRange = "{5266, 665}";
+			sepNavWindowFrame = "{{38, 594}, {750, 558}}";
 		};
 	};
-	D469A7200736C9DC00A21846 = {
+	D47EDE80109A79DB00229A50 /* PanelBG.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {711, 601}}";
-			sepNavSelRange = "{224, 7}";
-			sepNavVisRect = "{{0, 0}, {711, 428}}";
-			sepNavWindowFrame = "{{-2, 188}, {750, 558}}";
-		};
-	};
-	D469A7210736C9DC00A21846 = {
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {782, 4102}}";
-			sepNavSelRange = "{3602, 0}";
-			sepNavVisRect = "{{0, 1768}, {711, 595}}";
-			sepNavWindowFrame = "{{201, 21}, {750, 725}}";
-		};
-	};
-	D4714A670740C6C400EB4DBC = {
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {830, 1161}}";
-			sepNavSelRange = "{255, 0}";
-			sepNavVisRect = "{{0, 29}, {711, 428}}";
-			sepNavWindowFrame = "{{259, 111}, {750, 558}}";
-		};
-	};
-	D4714A680740C6C400EB4DBC = {
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {711, 428}}";
-			sepNavSelRange = "{511, 0}";
-			sepNavVisRect = "{{0, 0}, {711, 428}}";
-			sepNavWindowFrame = "{{61, 141}, {750, 558}}";
-		};
-	};
-	D489F0B907478B6900C7F2F1 = {
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {711, 433}}";
+			sepNavIntBoundsRect = "{{0, 0}, {691, 430}}";
 			sepNavSelRange = "{0, 0}";
-			sepNavVisRect = "{{0, 0}, {711, 428}}";
-			sepNavWindowFrame = "{{15, 183}, {750, 558}}";
+			sepNavVisRange = "{0, 369}";
+			sepNavWindowFrame = "{{15, 615}, {750, 558}}";
 		};
 	};
-	D489FFC907C474E400B545D1 = {
+	D47EDE82109A79DB00229A50 /* ActionDisplayIconPanel.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {581, 980}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 192}";
+		};
+	};
+	D47EDE89109A79DB00229A50 /* SearchResultsSource.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {581, 644}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 218}";
+		};
+	};
+	D47EDEA5109A79ED00229A50 /* TuneSiftInterface.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {691, 1680}}";
+			sepNavSelRange = "{575, 20}";
+			sepNavVisRange = "{0, 698}";
+		};
+	};
+	D47EDEC4109A7B6C00229A50 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D47EDE89109A79DB00229A50 /* SearchResultsSource.h */;
+		name = "SearchResultsSource.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 218;
+		vrLoc = 0;
+	};
+	D47EDEC5109A7B6C00229A50 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = D47EDEAE109A7A3800229A50 /* mTunes-real-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/malcolm/dev/tunesift.git/etc/mTunes-real-Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	D47EDEC7109A7B6C00229A50 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = D437C3BE081C1E3A0011F990 /* menuarrow-1.gif */;
+	};
+	D47EDEC8109A7B6C00229A50 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = D437C271081625A20011F990 /* backicon.tif */;
+	};
+	D47EDEC9109A7B6C00229A50 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = D437C272081625A20011F990 /* forwardicon.tif */;
+	};
+	D47EDECA109A7B6C00229A50 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = D437C29408162B540011F990 /* pauseicon.tif */;
+	};
+	D47EDECB109A7B6C00229A50 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = D437C29508162B540011F990 /* playicon.tif */;
+	};
+	D47EDECC109A7B6C00229A50 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = D404960107D643CF00B3C4BC /* headsupBG.tif */;
+	};
+	D47EDECD109A7B6C00229A50 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = D429DB3A080E569900F41B25 /* headsupShuffleOn.tif */;
+	};
+	D47EDECE109A7B6C00229A50 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = D429DAD50809A6E500F41B25 /* headsupShuffleOff.tif */;
+	};
+	D47EDECF109A7B6C00229A50 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = D489FFC907C474E400B545D1 /* PanelBG2.tif */;
+	};
+	D47EDED2109A7B6C00229A50 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D47EDE89109A79DB00229A50 /* SearchResultsSource.h */;
+		name = "SearchResultsSource.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 218;
+		vrLoc = 0;
+	};
+	D47EDED4109A7B6C00229A50 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = D47EDEAE109A7A3800229A50 /* mTunes-real-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/malcolm/dev/tunesift.git/etc/mTunes-real-Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	D47EDED5109A7B6C00229A50 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = D489FFC907C474E400B545D1 /* PanelBG2.tif */;
+	};
+	D47EDED8109A7B6C00229A50 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = D437C3BD081C1E3A0011F990 /* menuarrow.jpg */;
+	};
+	D47EDED9109A7B6C00229A50 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = D437C3BE081C1E3A0011F990 /* menuarrow-1.gif */;
+	};
+	D47EDEDA109A7B6C00229A50 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = D437C271081625A20011F990 /* backicon.tif */;
+	};
+	D47EDEDB109A7B6C00229A50 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = D437C272081625A20011F990 /* forwardicon.tif */;
+	};
+	D47EDEDC109A7B6C00229A50 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = D437C29408162B540011F990 /* pauseicon.tif */;
+	};
+	D47EDEDD109A7B6C00229A50 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = D437C29508162B540011F990 /* playicon.tif */;
+	};
+	D47EDEDE109A7B6C00229A50 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = D404960107D643CF00B3C4BC /* headsupBG.tif */;
+	};
+	D47EDEDF109A7B6C00229A50 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = D429DB3A080E569900F41B25 /* headsupShuffleOn.tif */;
+	};
+	D47EDEE0109A7B6C00229A50 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = D429DAD50809A6E500F41B25 /* headsupShuffleOff.tif */;
+	};
+	D47EDEE1109A7B6C00229A50 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = D489FFC907C474E400B545D1 /* PanelBG2.tif */;
+	};
+	D47EDF25109A7FA400229A50 /* TuneSift_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {767, 658}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{147, 900}";
+		};
+	};
+	D47EDF2B109A7FE200229A50 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = D437C3BD081C1E3A0011F990 /* menuarrow.jpg */;
+	};
+	D47EDF2C109A7FE200229A50 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D47EDE82109A79DB00229A50 /* ActionDisplayIconPanel.m */;
+		name = "ActionDisplayIconPanel.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 192;
+		vrLoc = 0;
+	};
+	D47EDF2D109A7FE200229A50 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = D47EDF0A109A7E5700229A50 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/malcolm/dev/tunesift.git/etc/Info.plist;
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	D47EDF2E109A7FE200229A50 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = D47EDF25109A7FA400229A50 /* TuneSift_Prefix.pch */;
+	};
+	D47EDF2F109A7FE200229A50 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = D437C3BD081C1E3A0011F990 /* menuarrow.jpg */;
+	};
+	D47EDF30109A7FE200229A50 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D47EDE82109A79DB00229A50 /* ActionDisplayIconPanel.m */;
+		name = "ActionDisplayIconPanel.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 192;
+		vrLoc = 0;
+	};
+	D47EDF31109A7FE200229A50 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = D47EDF0A109A7E5700229A50 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/malcolm/dev/tunesift.git/etc/Info.plist;
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	D47EDF42109A803000229A50 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D47EDF25109A7FA400229A50 /* TuneSift_Prefix.pch */;
+		name = "TuneSift_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 201;
+		vrLoc = 0;
+	};
+	D47EDF56109ABEFD00229A50 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D47EDEA5109A79ED00229A50 /* TuneSiftInterface.h */;
+		rLen = 1;
+		rLoc = 23;
+		rType = 1;
+	};
+	D47EDF58109ABF1D00229A50 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "error: void value not ignored as it ought to be";
+		fRef = D47EDE7C109A79DB00229A50 /* SongSearchPanel.m */;
+		rLen = 1;
+		rLoc = 178;
+		rType = 1;
+	};
+	D47EDF59109ABF2C00229A50 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = D47EDE73109A79DB00229A50 /* SongSearchPanel.h */;
+	};
+	D47EDF5A109ABF3E00229A50 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D47EDF25109A7FA400229A50 /* TuneSift_Prefix.pch */;
+		name = "TuneSift_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 900;
+		vrLoc = 147;
+	};
+	D47EDF5F109ABF3E00229A50 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D47EDE73109A79DB00229A50 /* SongSearchPanel.h */;
+		name = "SongSearchPanel.h: 44";
+		rLen = 0;
+		rLoc = 989;
+		rType = 0;
+		vrLen = 693;
+		vrLoc = 385;
+	};
+	D47EDF62109ABF3E00229A50 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D47EDE7C109A79DB00229A50 /* SongSearchPanel.m */;
+		name = "SongSearchPanel.m: 179";
+		rLen = 46;
+		rLoc = 5570;
+		rType = 0;
+		vrLen = 1125;
+		vrLoc = 4358;
+	};
+	D47EDF65109ABF3E00229A50 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D47EDEA5109A79ED00229A50 /* TuneSiftInterface.h */;
+		name = "TuneSiftInterface.h: 24";
+		rLen = 20;
+		rLoc = 575;
+		rType = 0;
+		vrLen = 698;
+		vrLoc = 0;
+	};
+	D47EDF70109ABFD800229A50 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D47EDF25109A7FA400229A50 /* TuneSift_Prefix.pch */;
+		name = "TuneSift_Prefix.pch: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 900;
+		vrLoc = 147;
+	};
+	D47EDF71109ABFD800229A50 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D47EDE7C109A79DB00229A50 /* SongSearchPanel.m */;
+		name = "SongSearchPanel.m: 177";
+		rLen = 0;
+		rLoc = 5566;
+		rType = 0;
+		vrLen = 665;
+		vrLoc = 5266;
+	};
+	D47EDF72109ABFD800229A50 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = D47EDEA5109A79ED00229A50 /* TuneSiftInterface.h */;
+		name = "TuneSiftInterface.h: 24";
+		rLen = 20;
+		rLoc = 575;
+		rType = 0;
+		vrLen = 698;
+		vrLoc = 0;
+	};
+	D489FFC907C474E400B545D1 /* PanelBG2.tif */ = {
 		uiCtxt = {
 			sepNavWindowFrame = "{{61, 141}, {750, 558}}";
 		};
 	};
-	D49658EE0745F7F6007E2BB4 = {
-		fileReference = D43740B10740C08000CC3F30;
-		functionName = "-readPlaylistInfoFromFile";
+	D49658EE0745F7F6007E2BB4 /* SearchResultsSource.m:85 */ = {
 		isa = PBXFileBreakpoint;
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = D43740B10740C08000CC3F30 /* SearchResultsSource.m */;
+		functionName = "-readPlaylistInfoFromFile";
+		hitCount = 0;
+		ignoreCount = 0;
 		lineNumber = 85;
+		modificationTime = 0;
 		state = 2;
 	};
-	D49658F20745F880007E2BB4 = {
-		fileReference = D43740B10740C08000CC3F30;
+	D49658F20745F880007E2BB4 /* SearchResultsSource.m:128 */ = {
+		isa = PBXFileBreakpoint;
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = D43740B10740C08000CC3F30 /* SearchResultsSource.m */;
 		functionName = "-readPlaylistInfoFromFile";
-		isa = PBXFileBreakpoint;
+		hitCount = 0;
+		ignoreCount = 0;
 		lineNumber = 128;
+		modificationTime = 0;
 		state = 2;
 	};
-	D4965ABE0746469B007E2BB4 = {
-		fileReference = D4D0BD080730E3D8006CB841;
+	D4965ABE0746469B007E2BB4 /* TuneSiftInterface.m:49 */ = {
+		isa = PBXFileBreakpoint;
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = D4D0BD080730E3D8006CB841 /* TuneSiftInterface.m */;
 		functionName = "-awakeFromNib";
-		isa = PBXFileBreakpoint;
+		hitCount = 0;
+		ignoreCount = 0;
 		lineNumber = 49;
+		modificationTime = 0;
 		state = 2;
 	};
-	D4BF7E76074C095600FCCCE1 = {
-		fileReference = D41D31FA073756E20083C748;
+	D4BF7E76074C095600FCCCE1 /* SongSearchPanel.m:286 */ = {
 		isa = PBXFileBreakpoint;
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = D41D31FA073756E20083C748 /* SongSearchPanel.m */;
+		hitCount = 0;
+		ignoreCount = 0;
 		lineNumber = 286;
+		modificationTime = 0;
 		state = 2;
 	};
-	D4CE8B26073B8D8900C1709D = {
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {711, 428}}";
-			sepNavSelRange = "{252, 0}";
-			sepNavVisRect = "{{0, 0}, {711, 428}}";
-			sepNavWindowFrame = "{{15, 183}, {750, 558}}";
-		};
-	};
-	D4CE8B27073B8D8900C1709D = {
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {872, 825}}";
-			sepNavSelRange = "{792, 0}";
-			sepNavVisRect = "{{0, 213}, {711, 428}}";
-			sepNavWindowFrame = "{{242, 57}, {750, 558}}";
-		};
-	};
-	D4D0BD030730E2ED006CB841 = {
+	D4D0BD030730E2ED006CB841 /* Source Control */ = {
+		isa = PBXSourceControlManager;
 		fallbackIsa = XCSourceControlManager;
 		isSCMEnabled = 1;
-		isa = PBXSourceControlManager;
 		scmConfiguration = {
 		};
 		scmType = scm.subversion;
 	};
-	D4D0BD040730E2ED006CB841 = {
-		indexTemplatePath = "";
+	D4D0BD040730E2ED006CB841 /* Code sense */ = {
 		isa = PBXCodeSenseManager;
-		usesDefaults = 1;
-		wantsCodeCompletion = 1;
-		wantsCodeCompletionAutoSuggestions = 0;
-		wantsCodeCompletionCaseSensitivity = 1;
-		wantsCodeCompletionListAlways = 1;
-		wantsCodeCompletionOnlyMatchingItems = 1;
-		wantsCodeCompletionParametersIncluded = 1;
-		wantsCodeCompletionPlaceholdersInserted = 1;
-		wantsCodeCompletionTabCompletes = 1;
-		wantsIndex = 1;
+		indexTemplatePath = "";
 	};
-	D4D0BD070730E3D8006CB841 = {
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {711, 1707}}";
-			sepNavSelRange = "{2404, 0}";
-			sepNavVisRect = "{{0, 1279}, {711, 428}}";
-			sepNavWindowFrame = "{{11, 188}, {750, 558}}";
-		};
+	D4D0BD080730E3D8006CB841 /* TuneSiftInterface.m */ = {
+		isa = PBXFileReference;
+		fileEncoding = 4;
+		lastKnownFileType = sourcecode.c.objc;
+		name = TuneSiftInterface.m;
+		path = /Users/malcolm/dev/tunesift.git/TuneSiftInterface.m;
+		sourceTree = "<absolute>";
 	};
-	D4D0BD080730E3D8006CB841 = {
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {5204, 13636}}";
-			sepNavSelRange = "{6411, 0}";
-			sepNavVisRect = "{{4318, 2101}, {886, 447}}";
-			sepNavWindowFrame = "{{5, 169}, {925, 577}}";
-		};
-	};
-	D4D5E9C607D253AB008757C6 = {
-		fileReference = D4D0BD080730E3D8006CB841;
-		functionName = "-checkForNewSong:";
+	D4D5E9C607D253AB008757C6 /* TuneSiftInterface.m:455 */ = {
 		isa = PBXFileBreakpoint;
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = D4D0BD080730E3D8006CB841 /* TuneSiftInterface.m */;
+		functionName = "-checkForNewSong:";
+		hitCount = 0;
+		ignoreCount = 0;
 		lineNumber = 455;
+		modificationTime = 0;
 		state = 1;
 	};
-	D4D5E9C807D253AD008757C6 = {
-		fileReference = D4D0BD080730E3D8006CB841;
-		functionName = "-checkForNewSong:";
+	D4D5E9C807D253AD008757C6 /* TuneSiftInterface.m:461 */ = {
 		isa = PBXFileBreakpoint;
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = D4D0BD080730E3D8006CB841 /* TuneSiftInterface.m */;
+		functionName = "-checkForNewSong:";
+		hitCount = 0;
+		ignoreCount = 0;
 		lineNumber = 461;
+		modificationTime = 0;
 		state = 1;
 	};
-	D4D5EA9C07D2D59F008757C6 = {
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {711, 428}}";
-			sepNavSelRange = "{217, 0}";
-			sepNavVisRect = "{{0, 0}, {711, 428}}";
-			sepNavWindowFrame = "{{15, 183}, {750, 558}}";
-		};
-	};
-	D4D5EA9D07D2D59F008757C6 = {
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {711, 629}}";
-			sepNavSelRange = "{557, 0}";
-			sepNavVisRect = "{{0, 201}, {711, 428}}";
-			sepNavWindowFrame = "{{38, 162}, {750, 558}}";
-		};
-	};
-	D4E600D5081C299E00641C1D = {
-		activeArgIndex = 2147483647;
+	D4E600D5081C299E00641C1D /* TuneSift */ = {
+		isa = PBXExecutable;
 		activeArgIndices = (
 		);
 		argumentStrings = (
 		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
 		configStateDict = {
 			"PBXLSLaunchAction-0" = {
 				PBXLSLaunchAction = 0;
@@ -1208,8 +1439,6 @@
 				startActionInfo = "";
 			};
 		};
-		cppStopOnCatchEnabled = 0;
-		cppStopOnThrowEnabled = 0;
 		customDataFormattersEnabled = 1;
 		debuggerPlugin = GDBDebugging;
 		disassemblyDisplayState = 0;
@@ -1217,80 +1446,12 @@
 		enableDebugStr = 1;
 		environmentEntries = (
 		);
-		isa = PBXExecutable;
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
 		libgmallocEnabled = 0;
 		name = TuneSift;
-		shlibInfoDictList = (
-		);
 		sourceDirectories = (
 		);
 		startupPath = /Users/malcolm/Development/BUILDS/TuneSift;
-	};
-	D4E601EB081F2A8500641C1D = {
-		fRef = D41D31FA073756E20083C748;
-		isa = PBXTextBookmark;
-		name = "\tNSString*\t\tasStr, *objstr;\n";
-		rLen = 28;
-		rLoc = 5735;
-		rType = 0;
-		vrLen = 140;
-		vrLoc = 5703;
-	};
-	D4E601EC081F2A8500641C1D = {
-		fRef = D43740B10740C08000CC3F30;
-		isa = PBXTextBookmark;
-		rLen = 1;
-		rLoc = 178;
-		rType = 1;
-	};
-	D4E601ED081F2A8500641C1D = {
-		fRef = D41D31FA073756E20083C748;
-		isa = PBXTextBookmark;
-		name = "\tNSString*\t\tasStr, *objstr;\n";
-		rLen = 28;
-		rLoc = 5735;
-		rType = 0;
-		vrLen = 140;
-		vrLoc = 5703;
-	};
-	D4E601F3081F2B5400641C1D = {
-		fRef = D43740B10740C08000CC3F30;
-		isa = PBXTextBookmark;
-		name = "\tNSArray*\t\tsortedSongs, *artistsname, *artistssong, *artistsdbid, *albumarray;\n";
-		rLen = 79;
-		rLoc = 6721;
-		rType = 0;
-		vrLen = 443;
-		vrLoc = 6543;
-	};
-	D4E60218081F300500641C1D = {
-		fRef = D43740B10740C08000CC3F30;
-		isa = PBXTextBookmark;
-		name = "\tNSArray*\t\tsortedSongs, *artistsname, *artistssong, *artistsdbid, *albumarray;\n";
-		rLen = 79;
-		rLoc = 6721;
-		rType = 0;
-		vrLen = 401;
-		vrLoc = 6543;
-	};
-	D4E6021D081F301D00641C1D = {
-		fRef = D43740B10740C08000CC3F30;
-		isa = PBXTextBookmark;
-		name = "\tNSArray*\t\tsortedSongs, *artistsname, *artistssong, *artistsdbid, *albumarray;\n";
-		rLen = 79;
-		rLoc = 6721;
-		rType = 0;
-		vrLen = 401;
-		vrLoc = 6543;
-	};
-	D4E6021E081F303600641C1D = {
-		fRef = D43740B10740C08000CC3F30;
-		isa = PBXTextBookmark;
-		name = "\tNSArray*\t\tsortedSongs, *artistsname, *artistssong, *artistsdbid, *albumarray;\n";
-		rLen = 79;
-		rLoc = 6721;
-		rType = 0;
-		vrLen = 401;
-		vrLoc = 6543;
 	};
 }

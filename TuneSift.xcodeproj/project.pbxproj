@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		D404960207D643CF00B3C4BC /* headsupBG.tif in Resources */ = {isa = PBXBuildFile; fileRef = D404960107D643CF00B3C4BC /* headsupBG.tif */; };
+		D429DAD60809A6E500F41B25 /* headsupShuffleOff.tif in Resources */ = {isa = PBXBuildFile; fileRef = D429DAD50809A6E500F41B25 /* headsupShuffleOff.tif */; };
+		D429DB3B080E569900F41B25 /* headsupShuffleOn.tif in Resources */ = {isa = PBXBuildFile; fileRef = D429DB3A080E569900F41B25 /* headsupShuffleOn.tif */; };
+		D437C273081625A20011F990 /* backicon.tif in Resources */ = {isa = PBXBuildFile; fileRef = D437C271081625A20011F990 /* backicon.tif */; };
+		D437C274081625A20011F990 /* forwardicon.tif in Resources */ = {isa = PBXBuildFile; fileRef = D437C272081625A20011F990 /* forwardicon.tif */; };
+		D437C29608162B540011F990 /* pauseicon.tif in Resources */ = {isa = PBXBuildFile; fileRef = D437C29408162B540011F990 /* pauseicon.tif */; };
+		D437C29708162B540011F990 /* playicon.tif in Resources */ = {isa = PBXBuildFile; fileRef = D437C29508162B540011F990 /* playicon.tif */; };
+		D437C3BF081C1E3A0011F990 /* menuarrow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D437C3BD081C1E3A0011F990 /* menuarrow.jpg */; };
+		D437C3C0081C1E3A0011F990 /* menuarrow-1.gif in Resources */ = {isa = PBXBuildFile; fileRef = D437C3BE081C1E3A0011F990 /* menuarrow-1.gif */; };
+		D47EDE8A109A79DB00229A50 /* HeadsUpWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = D47EDE71109A79DB00229A50 /* HeadsUpWindow.h */; };
+		D47EDE8B109A79DB00229A50 /* ActionBGPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = D47EDE72109A79DB00229A50 /* ActionBGPanel.m */; };
+		D47EDE8C109A79DB00229A50 /* SongSearchPanel.h in Headers */ = {isa = PBXBuildFile; fileRef = D47EDE73109A79DB00229A50 /* SongSearchPanel.h */; };
+		D47EDE8D109A79DB00229A50 /* ActionDisplayBGView.m in Sources */ = {isa = PBXBuildFile; fileRef = D47EDE74109A79DB00229A50 /* ActionDisplayBGView.m */; };
+		D47EDE8E109A79DB00229A50 /* SearchResultsPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = D47EDE75109A79DB00229A50 /* SearchResultsPanel.m */; };
+		D47EDE8F109A79DB00229A50 /* SearchResultsView.h in Headers */ = {isa = PBXBuildFile; fileRef = D47EDE76109A79DB00229A50 /* SearchResultsView.h */; };
+		D47EDE90109A79DB00229A50 /* SearchResultsSource.m in Sources */ = {isa = PBXBuildFile; fileRef = D47EDE77109A79DB00229A50 /* SearchResultsSource.m */; };
+		D47EDE91109A79DB00229A50 /* ActionDisplayBGView.h in Headers */ = {isa = PBXBuildFile; fileRef = D47EDE78109A79DB00229A50 /* ActionDisplayBGView.h */; };
+		D47EDE92109A79DB00229A50 /* StringBox.m in Sources */ = {isa = PBXBuildFile; fileRef = D47EDE79109A79DB00229A50 /* StringBox.m */; };
+		D47EDE93109A79DB00229A50 /* StringBox.h in Headers */ = {isa = PBXBuildFile; fileRef = D47EDE7A109A79DB00229A50 /* StringBox.h */; };
+		D47EDE94109A79DB00229A50 /* SearchResultsView.m in Sources */ = {isa = PBXBuildFile; fileRef = D47EDE7B109A79DB00229A50 /* SearchResultsView.m */; };
+		D47EDE95109A79DB00229A50 /* SongSearchPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = D47EDE7C109A79DB00229A50 /* SongSearchPanel.m */; };
+		D47EDE96109A79DB00229A50 /* PanelBG.m in Sources */ = {isa = PBXBuildFile; fileRef = D47EDE7D109A79DB00229A50 /* PanelBG.m */; };
+		D47EDE97109A79DB00229A50 /* SearchPanelView.h in Headers */ = {isa = PBXBuildFile; fileRef = D47EDE7E109A79DB00229A50 /* SearchPanelView.h */; };
+		D47EDE98109A79DB00229A50 /* SearchResultsPanel.h in Headers */ = {isa = PBXBuildFile; fileRef = D47EDE7F109A79DB00229A50 /* SearchResultsPanel.h */; };
+		D47EDE99109A79DB00229A50 /* PanelBG.h in Headers */ = {isa = PBXBuildFile; fileRef = D47EDE80109A79DB00229A50 /* PanelBG.h */; };
+		D47EDE9A109A79DB00229A50 /* ActionDisplayIconView.h in Headers */ = {isa = PBXBuildFile; fileRef = D47EDE81109A79DB00229A50 /* ActionDisplayIconView.h */; };
+		D47EDE9B109A79DB00229A50 /* ActionDisplayIconPanel.m in Sources */ = {isa = PBXBuildFile; fileRef = D47EDE82109A79DB00229A50 /* ActionDisplayIconPanel.m */; };
+		D47EDE9C109A79DB00229A50 /* ActionBGPanel.h in Headers */ = {isa = PBXBuildFile; fileRef = D47EDE83109A79DB00229A50 /* ActionBGPanel.h */; };
+		D47EDE9D109A79DB00229A50 /* SearchPanelView.m in Sources */ = {isa = PBXBuildFile; fileRef = D47EDE84109A79DB00229A50 /* SearchPanelView.m */; };
+		D47EDE9E109A79DB00229A50 /* HeadsUpWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = D47EDE85109A79DB00229A50 /* HeadsUpWindow.m */; };
+		D47EDE9F109A79DB00229A50 /* ActionDisplayIconPanel.h in Headers */ = {isa = PBXBuildFile; fileRef = D47EDE86109A79DB00229A50 /* ActionDisplayIconPanel.h */; };
+		D47EDEA1109A79DB00229A50 /* ActionDisplayIconView.m in Sources */ = {isa = PBXBuildFile; fileRef = D47EDE88109A79DB00229A50 /* ActionDisplayIconView.m */; };
+		D47EDEA2109A79DB00229A50 /* SearchResultsSource.h in Headers */ = {isa = PBXBuildFile; fileRef = D47EDE89109A79DB00229A50 /* SearchResultsSource.h */; };
+		D47EDEA8109A79ED00229A50 /* TuneSiftInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = D47EDEA4109A79ED00229A50 /* TuneSiftInterface.m */; };
+		D47EDEA9109A79ED00229A50 /* TuneSiftInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = D47EDEA5109A79ED00229A50 /* TuneSiftInterface.h */; };
+		D47EDEAB109A79ED00229A50 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D47EDEA7109A79ED00229A50 /* main.m */; };
+		D47EDEAF109A7A3800229A50 /* mTunes-real-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D47EDEAE109A7A3800229A50 /* mTunes-real-Info.plist */; };
+		D47EDEBA109A7ACC00229A50 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = D47EDEB8109A7ACC00229A50 /* MainMenu.nib */; };
+		D47EDF0B109A7E5700229A50 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D47EDF0A109A7E5700229A50 /* Info.plist */; };
+		D47EDF26109A7FA400229A50 /* TuneSift_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = D47EDF25109A7FA400229A50 /* TuneSift_Prefix.pch */; };
+		D489FFCA07C474E400B545D1 /* PanelBG2.tif in Resources */ = {isa = PBXBuildFile; fileRef = D489FFC907C474E400B545D1 /* PanelBG2.tif */; };
+		D4BF7CC007478EA100FCCCE1 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4BF7CBF07478EA100FCCCE1 /* Carbon.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		D404960107D643CF00B3C4BC /* headsupBG.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = headsupBG.tif; path = graphics/headsupBG.tif; sourceTree = "<group>"; };
+		D429DAD50809A6E500F41B25 /* headsupShuffleOff.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = headsupShuffleOff.tif; path = graphics/headsupShuffleOff.tif; sourceTree = "<group>"; };
+		D429DB3A080E569900F41B25 /* headsupShuffleOn.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = headsupShuffleOn.tif; path = graphics/headsupShuffleOn.tif; sourceTree = "<group>"; };
+		D437C271081625A20011F990 /* backicon.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = backicon.tif; path = graphics/backicon.tif; sourceTree = "<group>"; };
+		D437C272081625A20011F990 /* forwardicon.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = forwardicon.tif; path = graphics/forwardicon.tif; sourceTree = "<group>"; };
+		D437C29408162B540011F990 /* pauseicon.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = pauseicon.tif; path = graphics/pauseicon.tif; sourceTree = "<group>"; };
+		D437C29508162B540011F990 /* playicon.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = playicon.tif; path = graphics/playicon.tif; sourceTree = "<group>"; };
+		D437C3BD081C1E3A0011F990 /* menuarrow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = menuarrow.jpg; path = graphics/menuarrow.jpg; sourceTree = "<group>"; };
+		D437C3BE081C1E3A0011F990 /* menuarrow-1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "menuarrow-1.gif"; path = "graphics/menuarrow-1.gif"; sourceTree = "<group>"; };
+		D47EDE71109A79DB00229A50 /* HeadsUpWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HeadsUpWindow.h; path = src/HeadsUpWindow.h; sourceTree = "<group>"; };
+		D47EDE72109A79DB00229A50 /* ActionBGPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ActionBGPanel.m; path = src/ActionBGPanel.m; sourceTree = "<group>"; };
+		D47EDE73109A79DB00229A50 /* SongSearchPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SongSearchPanel.h; path = src/SongSearchPanel.h; sourceTree = "<group>"; };
+		D47EDE74109A79DB00229A50 /* ActionDisplayBGView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ActionDisplayBGView.m; path = src/ActionDisplayBGView.m; sourceTree = "<group>"; };
+		D47EDE75109A79DB00229A50 /* SearchResultsPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchResultsPanel.m; path = src/SearchResultsPanel.m; sourceTree = "<group>"; };
+		D47EDE76109A79DB00229A50 /* SearchResultsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchResultsView.h; path = src/SearchResultsView.h; sourceTree = "<group>"; };
+		D47EDE77109A79DB00229A50 /* SearchResultsSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchResultsSource.m; path = src/SearchResultsSource.m; sourceTree = "<group>"; };
+		D47EDE78109A79DB00229A50 /* ActionDisplayBGView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ActionDisplayBGView.h; path = src/ActionDisplayBGView.h; sourceTree = "<group>"; };
+		D47EDE79109A79DB00229A50 /* StringBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StringBox.m; path = src/StringBox.m; sourceTree = "<group>"; };
+		D47EDE7A109A79DB00229A50 /* StringBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StringBox.h; path = src/StringBox.h; sourceTree = "<group>"; };
+		D47EDE7B109A79DB00229A50 /* SearchResultsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchResultsView.m; path = src/SearchResultsView.m; sourceTree = "<group>"; };
+		D47EDE7C109A79DB00229A50 /* SongSearchPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SongSearchPanel.m; path = src/SongSearchPanel.m; sourceTree = "<group>"; };
+		D47EDE7D109A79DB00229A50 /* PanelBG.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PanelBG.m; path = src/PanelBG.m; sourceTree = "<group>"; };
+		D47EDE7E109A79DB00229A50 /* SearchPanelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchPanelView.h; path = src/SearchPanelView.h; sourceTree = "<group>"; };
+		D47EDE7F109A79DB00229A50 /* SearchResultsPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchResultsPanel.h; path = src/SearchResultsPanel.h; sourceTree = "<group>"; };
+		D47EDE80109A79DB00229A50 /* PanelBG.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PanelBG.h; path = src/PanelBG.h; sourceTree = "<group>"; };
+		D47EDE81109A79DB00229A50 /* ActionDisplayIconView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ActionDisplayIconView.h; path = src/ActionDisplayIconView.h; sourceTree = "<group>"; };
+		D47EDE82109A79DB00229A50 /* ActionDisplayIconPanel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ActionDisplayIconPanel.m; path = src/ActionDisplayIconPanel.m; sourceTree = "<group>"; };
+		D47EDE83109A79DB00229A50 /* ActionBGPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ActionBGPanel.h; path = src/ActionBGPanel.h; sourceTree = "<group>"; };
+		D47EDE84109A79DB00229A50 /* SearchPanelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchPanelView.m; path = src/SearchPanelView.m; sourceTree = "<group>"; };
+		D47EDE85109A79DB00229A50 /* HeadsUpWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HeadsUpWindow.m; path = src/HeadsUpWindow.m; sourceTree = "<group>"; };
+		D47EDE86109A79DB00229A50 /* ActionDisplayIconPanel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ActionDisplayIconPanel.h; path = src/ActionDisplayIconPanel.h; sourceTree = "<group>"; };
+		D47EDE88109A79DB00229A50 /* ActionDisplayIconView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ActionDisplayIconView.m; path = src/ActionDisplayIconView.m; sourceTree = "<group>"; };
+		D47EDE89109A79DB00229A50 /* SearchResultsSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchResultsSource.h; path = src/SearchResultsSource.h; sourceTree = "<group>"; };
+		D47EDEA4109A79ED00229A50 /* TuneSiftInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TuneSiftInterface.m; path = src/TuneSiftInterface.m; sourceTree = "<group>"; };
+		D47EDEA5109A79ED00229A50 /* TuneSiftInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TuneSiftInterface.h; path = src/TuneSiftInterface.h; sourceTree = "<group>"; };
+		D47EDEA7109A79ED00229A50 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = src/main.m; sourceTree = "<group>"; };
+		D47EDEAE109A7A3800229A50 /* mTunes-real-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "mTunes-real-Info.plist"; path = "etc/mTunes-real-Info.plist"; sourceTree = "<group>"; };
+		D47EDEB9109A7ACC00229A50 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = etc/English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		D47EDF0A109A7E5700229A50 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = etc/Info.plist; sourceTree = "<group>"; };
+		D47EDF25109A7FA400229A50 /* TuneSift_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TuneSift_Prefix.pch; sourceTree = "<group>"; };
+		D489FFC907C474E400B545D1 /* PanelBG2.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; name = PanelBG2.tif; path = graphics/PanelBG2.tif; sourceTree = "<group>"; };
+		D4BF7CBF07478EA100FCCCE1 /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		D4E600D4081C299E00641C1D /* TuneSift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TuneSift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				D4BF7CC007478EA100FCCCE1 /* Carbon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D47EDE71109A79DB00229A50 /* HeadsUpWindow.h */,
+				D47EDE72109A79DB00229A50 /* ActionBGPanel.m */,
+				D47EDE73109A79DB00229A50 /* SongSearchPanel.h */,
+				D47EDE74109A79DB00229A50 /* ActionDisplayBGView.m */,
+				D47EDE75109A79DB00229A50 /* SearchResultsPanel.m */,
+				D47EDE76109A79DB00229A50 /* SearchResultsView.h */,
+				D47EDE77109A79DB00229A50 /* SearchResultsSource.m */,
+				D47EDE78109A79DB00229A50 /* ActionDisplayBGView.h */,
+				D47EDE79109A79DB00229A50 /* StringBox.m */,
+				D47EDE7A109A79DB00229A50 /* StringBox.h */,
+				D47EDE7B109A79DB00229A50 /* SearchResultsView.m */,
+				D47EDE7C109A79DB00229A50 /* SongSearchPanel.m */,
+				D47EDE7D109A79DB00229A50 /* PanelBG.m */,
+				D47EDE7E109A79DB00229A50 /* SearchPanelView.h */,
+				D47EDE7F109A79DB00229A50 /* SearchResultsPanel.h */,
+				D47EDE80109A79DB00229A50 /* PanelBG.h */,
+				D47EDE81109A79DB00229A50 /* ActionDisplayIconView.h */,
+				D47EDE82109A79DB00229A50 /* ActionDisplayIconPanel.m */,
+				D47EDE83109A79DB00229A50 /* ActionBGPanel.h */,
+				D47EDE84109A79DB00229A50 /* SearchPanelView.m */,
+				D47EDE85109A79DB00229A50 /* HeadsUpWindow.m */,
+				D47EDE86109A79DB00229A50 /* ActionDisplayIconPanel.h */,
+				D47EDE88109A79DB00229A50 /* ActionDisplayIconView.m */,
+				D47EDE89109A79DB00229A50 /* SearchResultsSource.h */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+				D4BF7CBF07478EA100FCCCE1 /* Carbon.framework */,
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D4E600D4081C299E00641C1D /* TuneSift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* mTunes */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				D47EDEAE109A7A3800229A50 /* mTunes-real-Info.plist */,
+			);
+			name = mTunes;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				D47EDEA4109A79ED00229A50 /* TuneSiftInterface.m */,
+				D47EDF25109A7FA400229A50 /* TuneSift_Prefix.pch */,
+				D47EDEA5109A79ED00229A50 /* TuneSiftInterface.h */,
+				D47EDEA7109A79ED00229A50 /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D47EDF0A109A7E5700229A50 /* Info.plist */,
+				D437C3BD081C1E3A0011F990 /* menuarrow.jpg */,
+				D437C3BE081C1E3A0011F990 /* menuarrow-1.gif */,
+				D437C271081625A20011F990 /* backicon.tif */,
+				D437C272081625A20011F990 /* forwardicon.tif */,
+				D437C29408162B540011F990 /* pauseicon.tif */,
+				D437C29508162B540011F990 /* playicon.tif */,
+				D404960107D643CF00B3C4BC /* headsupBG.tif */,
+				D429DB3A080E569900F41B25 /* headsupShuffleOn.tif */,
+				D429DAD50809A6E500F41B25 /* headsupShuffleOff.tif */,
+				D489FFC907C474E400B545D1 /* PanelBG2.tif */,
+				D47EDEB8109A7ACC00229A50 /* MainMenu.nib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8D1107270486CEB800E47090 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D47EDE8A109A79DB00229A50 /* HeadsUpWindow.h in Headers */,
+				D47EDE8C109A79DB00229A50 /* SongSearchPanel.h in Headers */,
+				D47EDE8F109A79DB00229A50 /* SearchResultsView.h in Headers */,
+				D47EDE91109A79DB00229A50 /* ActionDisplayBGView.h in Headers */,
+				D47EDE93109A79DB00229A50 /* StringBox.h in Headers */,
+				D47EDE97109A79DB00229A50 /* SearchPanelView.h in Headers */,
+				D47EDE98109A79DB00229A50 /* SearchResultsPanel.h in Headers */,
+				D47EDE99109A79DB00229A50 /* PanelBG.h in Headers */,
+				D47EDE9A109A79DB00229A50 /* ActionDisplayIconView.h in Headers */,
+				D47EDE9C109A79DB00229A50 /* ActionBGPanel.h in Headers */,
+				D47EDE9F109A79DB00229A50 /* ActionDisplayIconPanel.h in Headers */,
+				D47EDEA2109A79DB00229A50 /* SearchResultsSource.h in Headers */,
+				D47EDEA9109A79ED00229A50 /* TuneSiftInterface.h in Headers */,
+				D47EDF26109A7FA400229A50 /* TuneSift_Prefix.pch in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* TuneSift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D47EDE6E109A799400229A50 /* Build configuration list for PBXNativeTarget "TuneSift" */;
+			buildPhases = (
+				8D1107270486CEB800E47090 /* Headers */,
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			comments = "TuneSift icon library remote accessor.";
+			dependencies = (
+			);
+			name = TuneSift;
+			productInstallPath = "$(HOME)/Applications";
+			productName = mTunes;
+			productReference = D4E600D4081C299E00641C1D /* TuneSift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = D47EDE6D109A799400229A50 /* Build configuration list for PBXProject "TuneSift" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* mTunes */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* TuneSift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D489FFCA07C474E400B545D1 /* PanelBG2.tif in Resources */,
+				D404960207D643CF00B3C4BC /* headsupBG.tif in Resources */,
+				D429DAD60809A6E500F41B25 /* headsupShuffleOff.tif in Resources */,
+				D429DB3B080E569900F41B25 /* headsupShuffleOn.tif in Resources */,
+				D437C273081625A20011F990 /* backicon.tif in Resources */,
+				D437C274081625A20011F990 /* forwardicon.tif in Resources */,
+				D437C29608162B540011F990 /* pauseicon.tif in Resources */,
+				D437C29708162B540011F990 /* playicon.tif in Resources */,
+				D437C3BF081C1E3A0011F990 /* menuarrow.jpg in Resources */,
+				D437C3C0081C1E3A0011F990 /* menuarrow-1.gif in Resources */,
+				D47EDEAF109A7A3800229A50 /* mTunes-real-Info.plist in Resources */,
+				D47EDEBA109A7ACC00229A50 /* MainMenu.nib in Resources */,
+				D47EDF0B109A7E5700229A50 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D47EDE8B109A79DB00229A50 /* ActionBGPanel.m in Sources */,
+				D47EDE8D109A79DB00229A50 /* ActionDisplayBGView.m in Sources */,
+				D47EDE8E109A79DB00229A50 /* SearchResultsPanel.m in Sources */,
+				D47EDE90109A79DB00229A50 /* SearchResultsSource.m in Sources */,
+				D47EDE92109A79DB00229A50 /* StringBox.m in Sources */,
+				D47EDE94109A79DB00229A50 /* SearchResultsView.m in Sources */,
+				D47EDE95109A79DB00229A50 /* SongSearchPanel.m in Sources */,
+				D47EDE96109A79DB00229A50 /* PanelBG.m in Sources */,
+				D47EDE9B109A79DB00229A50 /* ActionDisplayIconPanel.m in Sources */,
+				D47EDE9D109A79DB00229A50 /* SearchPanelView.m in Sources */,
+				D47EDE9E109A79DB00229A50 /* HeadsUpWindow.m in Sources */,
+				D47EDEA1109A79DB00229A50 /* ActionDisplayIconView.m in Sources */,
+				D47EDEA8109A79ED00229A50 /* TuneSiftInterface.m in Sources */,
+				D47EDEAB109A79ED00229A50 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D47EDEB8109A7ACC00229A50 /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D47EDEB9109A7ACC00229A50 /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D47EDE67109A799400229A50 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Development;
+		};
+		D47EDE68109A799400229A50 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Deployment;
+		};
+		D47EDE69109A799400229A50 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Default;
+		};
+		D47EDE6A109A799400229A50 /* Development */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = /tmp;
+				COPY_PHASE_STRIP = NO;
+				DEBUGGING_SYMBOLS = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_ENABLE_TRIGRAPHS = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = "";
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TuneSift_Prefix.pch;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "";
+				INSTALL_PATH = /Applications;
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = TuneSift;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /tmp;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Development;
+		};
+		D47EDE6B109A799400229A50 /* Deployment */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_ENABLE_TRIGRAPHS = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TuneSift_Prefix.pch;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = TuneSift;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Deployment;
+		};
+		D47EDE6C109A799400229A50 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_ENABLE_TRIGRAPHS = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TuneSift_Prefix.pch;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = TuneSift;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+				WRAPPER_EXTENSION = app;
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D47EDE6D109A799400229A50 /* Build configuration list for PBXProject "TuneSift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D47EDE67109A799400229A50 /* Development */,
+				D47EDE68109A799400229A50 /* Deployment */,
+				D47EDE69109A799400229A50 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		D47EDE6E109A799400229A50 /* Build configuration list for PBXNativeTarget "TuneSift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D47EDE6A109A799400229A50 /* Development */,
+				D47EDE6B109A799400229A50 /* Deployment */,
+				D47EDE6C109A799400229A50 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
